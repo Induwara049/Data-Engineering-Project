@@ -1,0 +1,32 @@
+{
+  "BigQuery Schema": [
+    {
+      "name": "id",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Open",
+      "type": "FLOAT"
+    },
+    {
+      "name": "High",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Low",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Close",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Adj_Close",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Volume",
+      "type": "INTEGER"
+    }
+  ]
+}
