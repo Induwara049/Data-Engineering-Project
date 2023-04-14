@@ -1,13 +1,13 @@
-var processedRows = new Set();
+var updated_data = new Set();
 
-function transformCSVtoJSON(csvRow) {
+function Convertion(csvRow) {
   var rowArray = csvRow.split(",");
 
   // Duplicate handling
-  if (processedRows.has(rowArray[0])) {
+  if (updated_data.has(rowArray[0])) {
     return null;
   }
-  processedRows.add(rowArray[0]);
+  updated_data.add(rowArray[0]);
 
   var obj = {};
 
